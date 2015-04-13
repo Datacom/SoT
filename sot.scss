@@ -1,0 +1,416 @@
+/* 
+	Core CSS for SoT
+	Version 0.1
+	Build on Bootstrap v3
+
+	0. Resets, Globals & Imports
+	1. Layout & Containers
+	2. Element Overrides
+	3. Typography
+	4. Navigation
+		4.1 Primary Navigations
+		4.2 Breadcrumbs
+	5. Components
+		5.1 User Images
+		5.2 Progress Bar
+		5.3 Badges
+		5.4 Footer
+*/
+
+/* 0. Resets, Globals & Imports */
+@import "_variables.scss";
+@import "bootstrap/assets/stylesheets/bootstrap.scss";
+@import "icons.scss";
+
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+html, body{
+	padding:0;
+	margin:0;
+}
+
+/* 1. Layout & Containers */
+.contain{ /* Structural container */
+	width:1020px;
+	margin: 0 auto;
+}
+.contain-content{ /* Styling container */
+	@extend .contain;
+
+	background:#F5F5F5;
+	padding:20px;	
+}
+
+/* 2. Element Overides
+Note: Most styles are defined in Bootstrap */
+p{
+	margin:0 0 20px;
+}
+a{
+	color:#37ABFC;
+	text-decoration:none;
+
+	&.cta{
+		text-decoration:underline;
+	}
+}
+hr{
+	margin:30px 0;
+	border-color:#E6E6E6;
+
+	&.bottom{
+		margin:0 0 30px 0;
+	}
+}
+dt{
+	float:left;
+	width:30%;
+}
+dd{
+	display:block;
+	float:left;
+	width:70%;
+}
+.divide{
+	border-right:1px solid #CCC;
+}
+
+/* 3. Typography */
+body{
+	color:#444;
+	font-family: 'PT Sans', sans-serif;
+	line-height:20px;
+}
+h1, .h1, h2, .h2, h3, .h3{
+	margin-top:0;
+}
+h1, .h1{
+  font-size: 26px;
+  margin-bottom: 24px;
+}
+h2, .h2 {
+  font-size: 26px;
+  margin-bottom: 24px;
+}
+h3, .h3 {
+  font-size: 24px;
+  margin-bottom: 14px;
+}
+blockquote{
+	  border-left: none;
+	  background: url(images/quotes.png) no-repeat;
+	  padding: 35px 0 0 40px;
+	  font-family: 'Droid Serif', serif;
+	  line-height: 26px;
+
+	p{
+		margin:10px 0;
+	}
+	a{
+		font-family: 'Open Sans', sans-serif;
+		font-size:14px;
+	}
+}
+.btn{
+	[class^="icon-"], [class*=" icon-"]{
+		line-height:1;
+	}	
+}
+
+/* 4. Navigation */
+.search-box{
+	input, button{
+		border:none;
+	}
+}
+
+/* 4.1  Primary Navigation */
+.nav-primary{
+	background:$brand-primary;
+	padding:35px 15px 10px 15px;
+	overflow:hidden;
+	margin-bottom:0;
+
+	a{
+		font-size:18px;
+		color:#FFF;
+		float:left;
+		display:block;
+		padding: 0 20px;
+
+		&.active{
+			font-weight:bold;
+		}
+	}
+	.branding{
+		background:url(images/logo.png) no-repeat;
+		width: 115px;
+		height:80px;
+		text-indent:-9999px;
+		float:left;
+ 		margin-top: -30px;		
+	}
+}
+
+/* 4.2  Breadcrumbs */
+.breadcrumbs{
+	background:#FFF;
+	width:100%;
+	padding:5px 10px;
+
+	a{
+		font-size:10px;
+		color:#888;
+		text-decoration:underline;
+
+		&:before{
+			content: none;
+		}
+
+		&.active{
+			text-decoration:none;
+
+			&:before{content:"  >  ";}
+		}	
+	}
+}
+
+/* 4.3 Navigation Tabs */
+.nav-tabs{
+	border:none;
+
+	li a{
+		border: none !important; /*todo: fix */
+		text-transform: uppercase;
+		font-weight: bold;
+		color:#000;
+		font-size:16px;
+	}
+	.active{
+		border-bottom: 5px solid $brand-primary;				
+	}
+}
+
+.nav-tabs-search{ 
+	border-bottom:1px solid #000;
+	margin-bottom:30px;
+
+	li a{
+		vertical-align: middle;
+		display:inline-block;
+		font-size:14px;
+		width:100%;
+		color:#000;
+		font-weight:bold;
+		border: none !important; /*todo: fix */
+		text-transform: uppercase;		
+	}
+	.active, :hover{
+		background:#000;
+
+		&:hover{
+			background:#000;
+		}
+
+		a{
+			color:#FFF;
+		}
+	}
+
+}
+/* Navbar */
+.navbar-right{
+	margin-right:0;
+}
+
+
+/* 5. Components 
+-----------------*/
+
+/* 5.1 User Images */
+.user-photo{
+  border-radius: 50%;
+  overflow: hidden;
+
+	img{
+		max-width:100%;
+	}
+}
+.user-photo-l{
+	@extend .user-photo;
+
+	width:200px;
+	height:200px;
+}
+
+/* 5.2 Progress Bar */
+.progress-large{
+	height:36px;
+	margin-bottom:30px;
+	border:1px solid #CCC;
+	
+	.progress-bar{
+		line-height:36px;
+		border-right:1px solid #CCC;
+		box-shadow:none;
+	}
+	.progress-bar-last{
+		border:none;
+	}	
+}
+.progress-list{
+	.progress-bar{
+		background:#7EA542;
+		text-transform:uppercase;
+		color:#FFF;
+	}
+	dt{
+		font-weight:normal;
+	}
+}
+
+
+/* 5.3 Badges & Labels */
+.badge-event{
+  border: 1px solid #CCC;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: block;
+  float: left;
+  text-align: center;
+  font-size: 11px;
+  line-height: 12px;
+  padding-top: 10px;
+  margin: 0 5px 0 0;
+}
+.label{
+	border-radius: 20px;
+	font-size: 14px;
+	font-weight: normal;
+	padding: 8px 15px;
+}
+
+/* Pie Chart */
+.pie-chart{ 
+	float: left;
+	background: #CCC;
+	display: block;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	font-size: 18px;
+	color: #575757;
+	font-weight: bold;
+	line-height: 50px;
+	border:1px solid #CCC;
+	margin-right: 10px;
+}
+
+
+/* 5.4 Footer */
+.footer{
+	background:#97A39F;
+	height:125px;
+	position:relative;
+	margin-top:50px;
+
+	.branding{
+		position:absolute;
+	  	left: 20px;
+	  	bottom: 15px;
+		background:url(images/branding.png) no-repeat;
+		width: 150px;
+		height:170px;
+		text-indent:-9999px;
+	}
+	p{
+		text-align:right;
+		padding:50px 30px;
+	}
+}
+
+/* 5. Stats List */
+.stats-list{
+	.stats-count{
+		font-size: 26px;
+  		font-weight: bold;
+	}
+	.stats-type{
+	  position: relative;
+	  top: -5px;
+	  margin-right: 10px;
+	  font-size: 13px;
+	  color: #666;
+	}
+
+}
+
+/* 6. Result Card */
+.result-card{
+	background:#FFF;
+	margin-bottom:20px;
+
+	img{
+		max-width:100%;
+	}
+	.pie-chart{
+		position:absolute;
+		bottom:125px;
+		right:15px;
+		background:#FFF;
+		font-size:11px;
+		height:35px;
+		width:35px;
+		line-height:35px;
+	}
+	.details{
+		padding: 5px;
+		font-size: 12px;
+		line-height: 16px;
+		height: 55px;
+		overflow: hidden;
+		margin-bottom: 5px;			
+	}
+	.actions{
+		border-top:1px solid #EEE;
+		padding:10px 5px;
+	}
+	.icon-round{
+		position: relative;
+		top: 4px;
+		left: 5px;
+	}
+}
+
+
+/* Roles */
+.role{
+	clear: both;
+	height: 85px;
+	padding: 10px 0 30px 0;
+
+	a{
+		display:block;
+		font-size:12px;
+		margin-bottom:4px;
+	}
+}
+
+.btn-save{
+	width: 110px;
+	position: relative;
+	padding-right: 0;
+	padding-left: 25px;
+
+	.icon-stars{
+		font-size: 29px;
+		position: absolute;
+		left: 9px;
+		top: 6px;
+	}
+}
