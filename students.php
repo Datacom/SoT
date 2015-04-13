@@ -130,18 +130,17 @@
                     4th year at Victoria University of Wellington.
                 </div>
                 <div class="actions">
-                  <button class="btn btn-primary" type="submit">Shortlist</button>
-                  <span class="icon-round icon-star-full"></span>
+                  <span class="icon-round icon-star-full icon-active"></span>
                 </div>
               </div>
             </div>
             <!-- / Result Loop -->
 
             <!-- More results for demo purposes -->
-            <div class="col-xs-4"><div class="result-card"><a href="student.php"><img src="images/photo.jpeg" alt="Michael" /></a><span class="pie-chart">100</span><div class="details"><strong>Michael Bolton</strong><br /></div><div class="actions"><button class="btn btn-primary" type="submit">Shortlist</button><span class="icon-round icon-star-full"></span></div></div></div>
-            <div class="col-xs-4"><div class="result-card"><a href="student.php"><img src="images/photo.jpeg" alt="Michael" /></a><span class="pie-chart">0</span><div class="details"><strong>Michael Reallylonglastnamefortesting</strong><br />4th year at Victoria University of Wellington.</div><div class="actions"><button class="btn btn-primary" type="submit">Shortlist</button><span class="icon-round icon-star-full"></span></div></div></div>
-            <div class="col-xs-4"><div class="result-card"><a href="student.php"><img src="images/photo.jpeg" alt="Michael" /></a><span class="pie-chart"></span><div class="details"><strong>Michael Bolton</strong><br />444444444444444444444444444444444444444444.</div><div class="actions"><button class="btn btn-primary" type="submit">Shortlist</button><span class="icon-round icon-star-full"></span></div></div></div>
-            <div class="col-xs-4"><div class="result-card"><a href="student.php"><img src="images/photo.jpeg" alt="Michael" /></a><span class="pie-chart">100</span><div class="details"><strong>MichaelBoltonMichaelBoltonMichaelBolton</strong><br />4th year at Victoria University of Wellington. This is a really long description to test out the CSS.</div><div class="actions"><button class="btn btn-primary" type="submit">Shortlist</button><span class="icon-round icon-star-full"></span></div></div></div>
+            <div class="col-xs-4"><div class="result-card"><a href="student.php"><img src="images/photo.jpeg" alt="Michael" /></a><span class="pie-chart">100</span><div class="details"><strong>Michael Bolton</strong><br /></div><div class="actions"><span class="icon-round icon-star-full"></span></div></div></div>
+            <div class="col-xs-4"><div class="result-card"><a href="student.php"><img src="images/photo.jpeg" alt="Michael" /></a><span class="pie-chart">0</span><div class="details"><strong>Michael Reallylonglastnamefortesting</strong><br />4th year at Victoria University of Wellington.</div><div class="actions"><span class="icon-round icon-star-full"></span></div></div></div>
+            <div class="col-xs-4"><div class="result-card"><a href="student.php"><img src="images/photo.jpeg" alt="Michael" /></a><span class="pie-chart"></span><div class="details"><strong>Michael Bolton</strong><br />444444444444444444444444444444444444444444.</div><div class="actions"><span class="icon-round icon-star-full icon-active"></span></div></div></div>
+            <div class="col-xs-4"><div class="result-card"><a href="student.php"><img src="images/photo.jpeg" alt="Michael" /></a><span class="pie-chart">100</span><div class="details"><strong>MichaelBoltonMichaelBoltonMichaelBolton</strong><br />4th year at Victoria University of Wellington. This is a really long description to test out the CSS.</div><div class="actions"><span class="icon-round icon-star-full"></span></div></div></div>
             <!-- / Demo results -->
 
           </div>

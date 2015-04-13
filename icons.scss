@@ -1,3 +1,6 @@
+/* todo: Tidy up this file. TB */
+
+
 /* IconMoon Icons */
 @font-face {
   font-family: 'icomoon';
@@ -109,11 +112,34 @@
 
 .icon-round{
   border-radius: 50%;
-  padding: 8px;
+  padding-left: 2px;
   font-size: 18px;
   color: #FFF;
   background: #97A39F;
-  margin: 0 10px 0 0;
+  margin: 0 15px 0 0;
+  position: relative;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  line-height: 35px;
+
+  &.icon-active{
+    color: #D12229;
+    border: 1px solid #D12229;
+    background: #FFF;
+  }  
+
+  span{ /* Text content under icon */
+    position: absolute;
+    color: #999;
+    font-family: sans-serif;
+    font-size: 9px;
+    bottom: -27px;
+    width: 100%;
+    display: block;
+    text-align: center;
+    left: 0;    
+  }
 }
 .icon-round-sm{
   padding: 5px;

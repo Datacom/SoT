@@ -31,6 +31,13 @@
             Please note that while the website is currently fixed width, the building using Bootstrap means a largely mobile-first approach and a future transition to a fluid or responsive layout has been kept in mind. 
           </p>
 
+          <ul>
+            <li><a href="toni.php">Toni's To-Do List & Things Needed</a></li>
+            <li><span class="icon-github3"></span>&nbsp;<a href="https://github.com/tonibarrett/SoT">Source</a></li>
+          </ul>          
+
+          <hr />          
+
           <h4>Quick links to example pages</h4>
           <ul>
             <li><a href="student.php">Student profile</a> [95%, just finishing social icons bar]</li>
@@ -38,11 +45,6 @@
             <li><a href="signup.php">Sign up</a> [In progress]</li>
             <li><a href="create-profile.php">Create profile</a> [In progress]</li>                        
             <li><a href="company.php">Company profile</a> [Next]</li>
-          </ul>
-
-          <ul>
-            <li><a href="toni.php">Toni's To-Do List & Things Needed</a></li>
-            <li><span class="icon-github3"></span><a href="">Source</a></li>
           </ul>
 
           <hr />
@@ -76,7 +78,6 @@
           4th year at Victoria University of Wellington.
       &lt;/div>
       &lt;div class="actions">
-        &lt;button class="btn btn-primary" type="submit">Shortlist&lt;/button>
         &lt;span class="icon-round icon-star-full">&lt;/span>
       &lt;/div>
     &lt;/div>
@@ -96,7 +97,6 @@
                     4th year at Victoria University of Wellington.
                 </div>
                 <div class="actions">
-                  <button class="btn btn-primary" type="submit">Shortlist</button>
                   <span class="icon-round icon-star-full"></span>
                 </div>
               </div>

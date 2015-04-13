@@ -44,12 +44,12 @@
             <div class="col-xs-16">
 
             <div class="panel panel-default">
-              <div class="panel-body">
-                <span class="icon-round icon-github3"></span>
-                <span class="icon-round icon-briefcase"></span>   
-                <span class="icon-round icon-sphere"></span>       
-                <span class="icon-round icon-twitter"></span>    
-                <span class="icon-round icon-linkedin2"></span>                                         
+              <div class="panel-body panel-icons">
+                <span class="icon-round icon-github3"><span>Github</span></span>
+                <span class="icon-round icon-briefcase"><span>Portfolio</span></span>
+                <span class="icon-round icon-sphere"><span>Web/Blog</span></span>
+                <span class="icon-round icon-twitter"><span>Twitter</span></span>
+                <span class="icon-round icon-linkedin2"><span>LinkedIn</span></span>
 
                 CV
                 Academic Results
@@ -65,7 +65,12 @@
             </ul>            
 
             <div class="panel panel-default">
-              <div class="panel-body">              
+              <div class="panel-body">
+
+               <div class="pull-right">
+                  <button role="button" class="btn btn-default">Edit</button>
+                </div>                
+      
                 <h2>Michael Bolton</h2>
                 <p>4th Year at Massey University (Palmertson North) studying BSc</p>
                 <p>Degree: Final Year</p>
@@ -74,7 +79,12 @@
                 
                 <hr />
 
+                <div class="pull-right">
+                  <button role="button" class="btn btn-default">Edit</button>
+                </div>                
+
                 <h2>Why you should hire me</h2>
+
                 <p>
                   Hi, I'm Michael. I'm a 20 yr old student currently studying awesome stuff at Massey. I love rock climbing and I play music at night when I'm really supposted to be studying.
                 </p>
@@ -212,6 +222,11 @@
               <span class="icon-stars"></span>       
               Save
             </button>        
+
+            <br /><br />
+
+            <button type="button" class="btn btn-default btn-full">Edit my profile</button>
+
           </p>
 
           <!-- Skills Panel -->
