@@ -1,17 +1,6 @@
 <?php include ("header.php") ?>
 
-  <div class="contain" style="width:1020px !important;">
-    <nav class="navbar nav-primary">
-      <div class="branding">
-        <a href="/">Summer of Tech</a>
-      </div>
-      <a href="#s" class="active">Dashboard</a>
-      <a href="students.php">Students</a>
-      <a href="#">Internships</a>
-      <a href="#">Events</a>                        
-    </nav>    
-
-    <nav class="breadcrumbs">
+   <nav class="breadcrumbs">
       <a href="#">Styleguide</a>
       <a href="#" class="active">Dashboard</a>
     </nav>

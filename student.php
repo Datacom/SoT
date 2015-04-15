@@ -1,16 +1,5 @@
 <?php include ("header.php") ?>
 
-  <div class="contain" style="width:1020px !important;">
-    <nav class="navbar nav-primary">
-      <div class="branding">
-        <a href="/">Summer of Tech</a>
-      </div>
-      <a href="index.php">Dashboard</a>
-      <a href="students.php">Students</a>
-      <a href="#">Internships</a>
-      <a href="#">Events</a>                        
-    </nav>    
-
     <nav class="breadcrumbs">
       <a href="#">Students</a>
       <a href="#" class="active">Michael</a>
@@ -304,34 +293,19 @@
           <div class="panel panel-default">
             <div class="panel-body">              
               <h3>I could be your intern for...</h3>            
-              <div class="role">
-                  <span class="pie-chart">100</span>
-                  <a href="#">Junior Developer - mobile first web front end</a>
-                  <button type="button" class="btn btn-default btn-xs">Default</button>                  
+              <div class="role row">
+                  <div class="col-xs-3">
+                    <span class="pie-chart">100</span>
+                  </div>
+                  <div class="col-xs-9">
+                    <a href="#">Junior Developer - mobile first web front end</a>
+                  </div>
+                  <div class="col-xs-4">
+                    <button type="button" class="btn btn-default btn-xs">Default</button>                  
+                  </div>
               </div>
 
               <hr class="bottom" />
-
-              <div class="role">
-                  <span class="pie-chart">90</span>
-                  <a href="#">Junior Developer - mobile first web front end</a>
-                  <button type="button" class="btn btn-danger btn-xs">Express Interest</button>
-                  <span class="icon-round icon-round-sm icon-star-full"></span>
-              </div>
-
-
-              <div class="role">
-                  <span class="pie-chart">90</span>
-                  <a href="#">Junior Developer - mobile first web front end</a>
-                  <button type="button" class="btn btn-default btn-xs">Shortlist</button>
-              </div>              
-
-              <div class="role">
-                  <span class="pie-chart">90</span>
-                  <a href="#">Junior Developer - mobile first web front end</a>
-                  <button type="button" class="btn btn-success btn-xs">Shortlisted</button>
-                  <span class="icon-round icon-round-sm icon-checkmark"></span>
-              </div>
 
             </div>
           </div>

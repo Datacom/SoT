@@ -6069,7 +6069,6 @@ blockquote {
 .nav-primary {
   background: #C40B20;
   padding: 35px 15px 10px 15px;
-  overflow: hidden;
   margin-bottom: 0; }
   .nav-primary a {
     font-size: 18px;
@@ -6086,6 +6085,18 @@ blockquote {
     text-indent: -9999px;
     float: left;
     margin-top: -30px; }
+  .nav-primary .nav-right {
+    float: right;
+    padding-right: 50px;
+    color: #FFF;
+    font-size: 23px;
+    margin-top: -6px; }
+    .nav-primary .nav-right .caret {
+      border-right: 6px solid transparent;
+      border-left: 6px solid transparent;
+      border-top: 7px dashed;
+      position: relative;
+      top: -3px; }
 
 /* 4.2  Breadcrumbs */
 .breadcrumbs {

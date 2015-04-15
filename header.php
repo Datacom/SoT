@@ -32,3 +32,26 @@
   <!--/ -->
 
   <body role="document">
+    <nav class="navbar nav-primary">
+      <div class="contain">
+        <div class="branding">
+          <a href="/">Summer of Tech</a>
+        </div>
+        <a href="index.php">Dashboard</a>
+        <a href="students.php">Students</a>
+        <a href="#">Internships</a>
+        <a href="#">Events</a>                  
+
+        <div class="nav-right dropdown">
+          <span class="icon-user dropdown-toggle" data-toggle="dropdown"></span>
+          <span class="caret dropdown-toggle" data-toggle="dropdown"></span>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+          </ul>          
+        </div>
+      </div>
+    </nav>    
+
+    <div class="contain" style="width:1020px !important;">
