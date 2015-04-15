@@ -51,9 +51,12 @@
                 <span class="icon-round icon-twitter"><span>Twitter</span></span>
                 <span class="icon-round icon-linkedin2"><span>LinkedIn</span></span>
 
-                CV
-                Academic Results
-                Visa
+                <div class="downloads">
+                  <span class="icon-round-sm icon-arrow-down"></span>CV
+                  <span class="icon-round-sm icon-arrow-down"></span>Academic Results
+                  <span class="icon-file-text2"></span>Visa
+                </div>
+
               </div>
             </div>
 

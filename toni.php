@@ -27,16 +27,16 @@
 
           <h2>To do:</h2>
           <ul>
-            <li>Tidy up use of Icons</li>
-            <li>Pie charts</li>
+            <li>Fix search results page on browser resize</li>
+            <li>Add statuses (e.g Shortlisted) to bottom of profile photos</li>
           </ul>
 
           <hr />
 
           <h2>I need</h2>
           <ul>
-            <li>Better versions of logos to optimize. Currently sliced out of screenshots from InVision which is a bit nasty</li>
-            <li>Background image for Sign up page</li>
+            <li>Copy of main logo (2 circles)</li>
+            <li> </li>
           </ul>
 
 

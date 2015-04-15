@@ -110,18 +110,24 @@
   content: "\ea10";
 }
 
+.icon-arrow-down:before {
+  content: "\ea36";
+}
+
+/* Icon Styles */
 .icon-round{
   border-radius: 50%;
   padding-left: 2px;
   font-size: 18px;
   color: #FFF;
-  background: #97A39F;
+  background: #97a39f;
   margin: 0 15px 0 0;
   position: relative;
   width: 35px;
   height: 35px;
   text-align: center;
   line-height: 35px;
+  display:inline-block;
 
   &.icon-active{
     color: #D12229;
@@ -142,8 +148,16 @@
   }
 }
 .icon-round-sm{
-  padding: 5px;
-  font-size: 12px;  
+  border: 2px solid #97a39f;
+  font-size: 9px;
+  color: #97a39f;
+  border-radius: 50%;
+  width: 18px;
+  display: inline-block;
+  height: 18px;
+  line-height: 16px;
+  text-align: center;
+  padding-left: 1px;
 }
 .icon-dl{ /* Definition List style icon usage */
     color:#888;

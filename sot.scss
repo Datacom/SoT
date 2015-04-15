@@ -74,9 +74,6 @@ dd{
 	float:left;
 	width:70%;
 }
-.divide{
-	border-right:1px solid #CCC;
-}
 
 /* 3. Typography */
 body{
@@ -313,25 +310,23 @@ blockquote{
 
 /* Pie Chart */
 .pie-chart{ 
-	float: left;
-	background: #CCC;
-	display: block;
+	background:$brand-secondary;
+	font-size:11px;
+	height:36px;
+	width:36px;
+	line-height:36px;
+	display: inline-block;
 	border-radius: 50%;
-	width: 50px;
-	height: 50px;
 	text-align: center;
-	font-size: 18px;
-	color: #575757;
+	color: #FFF;
 	font-weight: bold;
-	line-height: 47px;
-	border:1px solid #CCC;
 	margin-right: 10px;
 }
 
 
 /* 5.4 Footer */
 .footer{
-	background:#97A39F;
+	background:$brand-secondary;
 	height:125px;
 	position:relative;
 	margin-top:50px;
@@ -371,19 +366,15 @@ blockquote{
 .result-card{
 	background:#FFF;
 	margin-bottom:20px;
+	height:275px;
+	overflow:hidden;
 
 	img{
 		max-width:100%;
 	}
 	.pie-chart{
-		position:absolute;
-		bottom:110px;
-		right:15px;
-		background:#FFF;
-		font-size:11px;
-		height:35px;
-		width:35px;
-		line-height:35px;
+		position:relative;
+		top:-5px;
 	}
 	.details{
 		padding: 5px;
@@ -397,6 +388,11 @@ blockquote{
 		border-top:1px solid #EEE;
 		padding:10px 5px;
 		text-align:center;
+
+		.icon-round{
+			margin: 0 auto;
+			padding-left:0; /*icon moon issue, to fix */
+		}
 	}
 }
 
@@ -428,12 +424,34 @@ blockquote{
 	}
 }
 
-/* Social Panel */
+/* Social Panel on Student Profile 
+todo: move this section */
 .panel-icons{
-  padding: 15px 15px 25px 15px;	
+  padding: 15px;	
 
   .icon-round{
 	display: block;
 	float: left;
+  }
+  .downloads{
+	float: left;
+	border-left: 1px solid #CCC;
+	padding: 10px 10px 15px 10px;
+	color: $brand-secondary;
+	font-size:11px;
+	margin-left:10px;
+
+	.icon-round-sm{
+		float:none;
+		margin:0 5px 0 15px;
+	}
+
+	.icon-file-text2{
+		font-size: 16px;
+		margin: 0 5px 0 25px;
+		position: relative;
+		top: 3px;
+	}
+
   }
 }

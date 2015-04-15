@@ -30,6 +30,9 @@
           <p>
             Please note that while the website is currently fixed width, the building using Bootstrap means a largely mobile-first approach and a future transition to a fluid or responsive layout has been kept in mind. 
           </p>
+<pre>
+&lt;div class="contain" style="width:1020px !important;">
+</pre>
 
           <ul>
             <li><a href="toni.php">Toni's To-Do List & Things Needed</a></li>
@@ -40,11 +43,13 @@
 
           <h4>Quick links to example pages</h4>
           <ul>
-            <li><a href="student.php">Student profile</a> [95%, just finishing social icons bar]</li>
-            <li><a href="students.php">Search students</a> [Done]</li>
-            <li><a href="signup.php">Sign up</a> [In progress]</li>
-            <li><a href="create-profile.php">Create profile</a> [In progress]</li>                        
-            <li><a href="company.php">Company profile</a> [Next]</li>
+            <li><a href="student.php">Student profile</a> <span class="icon-checkmark"></span></li>
+            <li><a href="company.php">Business profile</a> [70%]</li>            
+            <li><a href="students.php">Search students</a> <span class="icon-checkmark"></span></li>
+            <li><a href="signup.php">Sign up</a> [50%]</li>
+            <li><a href="create-profile.php">Create profile</a> [5%]</li>                        
+            <li><a href="company-dashboard.php">Business dashboard</a> [0%]</li>
+            <li><a href="student-dashboard.php">Student dashboard</a> [0%]</li>            
           </ul>
 
           <hr />
@@ -70,9 +75,6 @@
         &lt;a href="student.php">
           &lt;img src="images/photo.jpeg" alt="Michael" />
         &lt;/a>
-        &lt;span class="pie-chart">
-          75
-        &lt;/span>
       &lt;div class="details">
           &lt;strong>Michael Bolton&lt;/strong>&lt;br />
           4th year at Victoria University of Wellington.
@@ -89,9 +91,6 @@
                   <a href="student.php">
                     <img src="images/photo.jpeg" alt="Michael" />
                   </a>
-                  <span class="pie-chart">
-                    75
-                  </span>
                 <div class="details">
                     <strong>Michael Bolton</strong><br />
                     4th year at Victoria University of Wellington.
