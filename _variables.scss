@@ -23,6 +23,11 @@ $brand-danger:          #d9534f !default;
 
 $brand-secondary:		#85928E !default;
 
+$progress-1:			#48AF56;
+$progress-2:            lighten($progress-1, 10%) !default;
+$progress-3:            lighten($progress-1, 20%) !default;
+$progress-4:            lighten($progress-1, 30%) !default;
+$progress-5:            lighten($progress-1, 40%) !default;
 
 //== Scaffolding
 //

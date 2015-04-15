@@ -6071,7 +6071,7 @@ blockquote {
   padding: 35px 15px 10px 15px;
   margin-bottom: 0; }
   .nav-primary a {
-    font-size: 18px;
+    font-size: 22px;
     color: #FFF;
     float: left;
     display: block;
@@ -6172,12 +6172,12 @@ blockquote {
 /* 5.2 Progress Bar */
 .progress-large {
   height: 36px;
-  margin-bottom: 30px;
-  border: 1px solid #CCC; }
+  margin-bottom: 30px; }
   .progress-large .progress-bar {
     line-height: 36px;
     border-right: 1px solid #CCC;
-    box-shadow: none; }
+    box-shadow: none;
+    color: #FFF; }
   .progress-large .progress-bar-last {
     border: none; }
 
@@ -6187,6 +6187,21 @@ blockquote {
   color: #FFF; }
 .progress-list dt {
   font-weight: normal; }
+
+.progress-5 {
+  background: #d5eed9; }
+
+.progress-4 {
+  background: #b1dfb7; }
+
+.progress-3 {
+  background: #8dd096; }
+
+.progress-2 {
+  background: #69c175; }
+
+.progress-1 {
+  background: #48AF56; }
 
 /* 5.3 Badges & Labels */
 .badge-event {

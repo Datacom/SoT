@@ -138,7 +138,7 @@ blockquote{
 	margin-bottom:0;
 
 	a{
-		font-size:18px;
+		font-size:22px;
 		color:#FFF;
 		float:left;
 		display:block;
@@ -278,12 +278,12 @@ blockquote{
 .progress-large{
 	height:36px;
 	margin-bottom:30px;
-	border:1px solid #CCC;
 	
 	.progress-bar{
 		line-height:36px;
 		border-right:1px solid #CCC;
 		box-shadow:none;
+		color:#FFF;
 	}
 	.progress-bar-last{
 		border:none;
@@ -298,6 +298,21 @@ blockquote{
 	dt{
 		font-weight:normal;
 	}
+}
+.progress-5{
+	background:$progress-5;
+}
+.progress-4{
+	background:$progress-4;
+}
+.progress-3{
+	background:$progress-3;
+}
+.progress-2{
+	background:$progress-2;
+}
+.progress-1{
+	background:$progress-1;
 }
 
 

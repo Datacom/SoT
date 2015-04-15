@@ -226,39 +226,42 @@
             <div class="panel-body">              
               <h3>What I know</h3>
               <div class="progress progress-large">
-                <div class="progress-bar" style="width: 50%">
+                <div class="progress-bar progress-1" style="width: 50%">
                   <span>Programming</span>
                 </div>
-                <div class="progress-bar progress-bar-striped" style="width: 20%">
+                <div class="progress-bar progress-2" style="width: 20%">
                   <span>Skill</span>
                 </div>
-                <div class="progress-bar progress-bar-last" style="width: 30%">
+                <div class="progress-bar progress-3 progress-bar-last" style="width: 30%">
                   <span>Skill</span>
                 </div>
               </div>
 
               <h3>What I've done</h3>
               <div class="progress progress-large">
-                <div class="progress-bar" style="width: 70%">
-                  <span>Programming</span>
-                </div>
-                <div class="progress-bar progress-bar-striped" style="width: 15%">
+                <div class="progress-bar progress-1" style="width: 30%">
                   <span>Skill</span>
                 </div>
-                <div class="progress-bar progress-bar-last" style="width: 15%">
+                <div class="progress-bar progress-2" style="width: 25%">
+                  <span>Skill</span>
+                </div>
+                <div class="progress-bar progress-3" style="width: 15%">
+                  <span>Skill</span>
+                </div>
+                <div class="progress-bar progress-4" style="width: 15%">
+                  <span>Skill</span>
+                </div>                                
+                <div class="progress-bar progress-5 progress-bar-last" style="width: 15%">
                   <span>Skill</span>
                 </div>
               </div>
 
               <h3>What I want to learn</h3>
               <div class="progress progress-large">
-                <div class="progress-bar" style="width: 50%">
+                <div class="progress-bar progress-1" style="width: 60%">
                   <span>Programming</span>
                 </div>
-                <div class="progress-bar progress-bar-striped" style="width: 20%">
-                  <span>Skill</span>
-                </div>
-                <div class="progress-bar progress-bar-last" style="width: 30%">
+                <div class="progress-bar progress-2 progress-bar-last" style="width: 40%">
                   <span>Skill</span>
                 </div>
               </div>
